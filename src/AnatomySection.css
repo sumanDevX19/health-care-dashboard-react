@@ -1,0 +1,96 @@
+.anatomy-div{
+    background-color: #56505017;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.anatomy-div img{
+    width: 270px;
+    height: 400px;
+}
+
+.lungs-pointer{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px dashed rgb(18, 164, 169);
+    top: 12rem;
+    left: 24rem;
+}
+
+.lungs-content{
+    position: relative;
+    top: 0.5rem;
+    left: 3rem;
+    width: 100px;
+    height: 22px;
+    background-color: #008000;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.anatomy-container span{
+    font-size: 10px;
+    color: #fff;
+    
+}
+
+.tooth-pointer{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px dashed rgb(18, 164, 169);
+    top: 9rem;
+    left: 24.5rem;
+
+}
+
+.tooth-content{
+    position: relative;
+    left: 2rem;
+    width: 100px;
+    height: 22px;
+    background-color: #008000;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bone-pointer{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px dashed rgb(18, 164, 169);
+    top: 24rem;
+    left: 25.7rem;
+
+}
+.bone-content{
+    position: relative;
+    left: 2rem;
+    width: 100px;
+    height: 22px;
+    background-color: #008000;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
