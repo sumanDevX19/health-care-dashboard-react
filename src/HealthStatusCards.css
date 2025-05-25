@@ -23,6 +23,11 @@
 
 }
 
+.mobile-btn{
+    display: none;
+}
+
+
 .details-btn{
     background-color: transparent;
     border: none;
@@ -87,4 +92,209 @@
     height: 10px;
     background-color: #ffa500;
 
+}
+
+
+/* Tablet Screen Media Query */
+@media (max-width:1024px) {
+    .health-cards-container{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: 140px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+    
+}
+
+.mobile-btn{
+    display: none;
+}
+
+.card{
+    background-color: #56505017;
+    width: 100%;
+    height: 90px;
+    border: none;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-around;
+    padding: 6px 6px;
+
+}
+
+.details-btn{
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    align-self: flex-end;
+    cursor: pointer;
+    color: #372aac;
+    font-weight: 500;
+}
+
+.card img{
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.organ{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.date{
+    margin-left: 6px;
+
+}
+
+.progress{
+    margin-left: 5px;
+}
+
+.layer-outer{
+    width: 130px;
+    height: 7px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.191);
+    overflow: hidden;
+}
+
+
+
+.lungs-progress{
+    width: 100px;
+    height: 10px;
+    background-color: #e00b0b;
+
+}
+
+.teeth-progress{
+    width: 95px;
+    height: 10px;
+    background-color: #008000;
+
+}
+
+.bone-progress{
+    width: 110px;
+    height: 10px;
+    background-color: #ffa500;
+
+}
+    
+}
+
+
+/* Mobile Screen Media Query */
+@media (max-width:768px) {
+    .health-cards-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 0;
+    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    
+    }
+
+.mobile-btn{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    align-items: center;
+    cursor: pointer;
+    color: #372aac;
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+.card{
+    background-color: #56505017;
+    width: 100%;
+    height: 90px;
+    border: none;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    /* padding: 4px 4px; */
+
+}
+
+.details-btn{
+    display: none;
+}
+
+.card img{
+    width: 30px;
+    height: auto;
+    /* margin-right: 10px; */
+}
+
+.organ{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.date{
+    margin-left: 6px;
+
+}
+
+.progress{
+    margin-left: 5px;
+}
+
+.layer-outer{
+    width: 130px;
+    height: 7px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.191);
+    overflow: hidden;
+}
+
+
+
+.lungs-progress{
+    width: 100px;
+    height: 10px;
+    background-color: #e00b0b;
+
+}
+
+.teeth-progress{
+    width: 95px;
+    height: 10px;
+    background-color: #008000;
+
+}
+
+.bone-progress{
+    width: 110px;
+    height: 10px;
+    background-color: #ffa500;
+
+}
+    
 }

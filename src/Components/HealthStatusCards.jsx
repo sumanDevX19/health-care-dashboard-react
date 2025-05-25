@@ -66,9 +66,10 @@ const HealthStatusCards = () => {
 
             </div>
             
-            <button className='details-btn'>Details &#8594;</button>
 
+            <button className='details-btn'>Details &#8594;</button>
         </div>
+        <button className="mobile-btn">Details &#8594; </button>
     </>
   )
 }
