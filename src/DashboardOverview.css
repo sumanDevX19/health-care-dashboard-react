@@ -2,7 +2,7 @@
 
 .dashboard-overview{
 
-    width: 550px;
+    width: 100vw;
     height: 400px;
     padding: 1rem;
     display: flex;
@@ -15,7 +15,7 @@
 /* Tablet Screen Media Query */
 @media (max-width:1024px) {
     .dashboard-overview{
-    width: 400px;
+    width: 100vw;
     height: 350px;
     padding: 1rem;
     display: flex;
@@ -31,7 +31,7 @@
 @media (max-width:768px) {
     .dashboard-overview{
     width: 100vw;
-    height: 800px;
+    height: 2000px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
