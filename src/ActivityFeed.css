@@ -1,0 +1,161 @@
+.activity-feed-wrapper {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #f5f7fe;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  height: 200px;
+}
+
+.activity-feed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.activity-feed-header h4 {
+  font-size: 16px;
+  color: #222;
+  margin: 0;
+}
+
+.appointment-count {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+}
+
+.day-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bars {
+  display: flex;
+  gap: 4px;
+  align-items: flex-end;
+  height: 100px;
+  margin-bottom: 8px;
+}
+
+.bar {
+  width: 6px;
+  border-radius: 3px;
+  background-color: #ccc;
+}
+
+.bar.gray {
+  height: 60px;
+  background-color: #d3d3d3;
+}
+
+.bar.aqua {
+  height: 80px;
+  background-color: #00d1d1;
+}
+
+.bar.blue {
+  height: 70px;
+  background-color: #3b49df;
+}
+
+.day-label {
+  font-size: 12px;
+  color: #666;
+}
+
+
+
+@media (max-width:768px) {
+    .activity-feed-wrapper {
+  width: 100%;
+  max-width: 90vw;
+  padding: 20px;
+  background-color: #f5f7fe;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  height: 200px;
+
+
+
+}
+
+.activity-feed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.activity-feed-header h4 {
+  font-size: 16px;
+  color: #222;
+  margin: 0;
+}
+
+.appointment-count {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+}
+
+.day-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bars {
+  display: flex;
+  gap: 4px;
+  align-items: flex-end;
+  height: 100px;
+  margin-bottom: 8px;
+}
+
+.bar {
+  width: 6px;
+  border-radius: 3px;
+  background-color: #ccc;
+}
+
+.bar.gray {
+  height: 60px;
+  background-color: #d3d3d3;
+}
+
+.bar.aqua {
+  height: 80px;
+  background-color: #00d1d1;
+}
+
+.bar.blue {
+  height: 70px;
+  background-color: #3b49df;
+}
+
+.day-label {
+  font-size: 12px;
+  color: #666;
+}
+    
+}
