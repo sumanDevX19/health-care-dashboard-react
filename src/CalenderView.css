@@ -1,0 +1,390 @@
+/* CalenderView.css */
+
+.appointment-calendar-container {
+  background-color: #f5f7fe;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 530px;
+  margin: auto;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.calendar-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1d1e2c;
+}
+
+.calendar-nav-buttons .nav-button {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #3b3f5c;
+  margin: 0 0.25rem;
+}
+
+.calendar-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.calendar-day {
+  background-color: transparent;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: 80px;
+}
+
+.selected-day {
+  background-color: rgba(86, 88, 245, 0.1);
+}
+
+.day-name {
+  font-size: 0.85rem;
+  color: #8e8e93;
+  margin-bottom: 0.25rem;
+}
+
+.day-date {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.time-slot {
+  margin: 0.2rem 0;
+  padding: 0.25rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.selected-time {
+  background-color: #372aac;
+  color: white;
+  font-weight: bold;
+}
+
+.default-time {
+  background-color: #e0e3fa;
+  color: #5658f5;
+}
+
+.appointment-cards {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.appointment-card {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-time {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.card-doctor {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Specific background color classes for cards */
+.bg-purple {
+  background-color: #5658f5;
+  color: white;
+}
+
+.bg-light {
+  background-color: #e9ebfd;
+  color: #1d1e2c;
+}
+
+
+/* Mobile Screen Media Query */
+@media (max-width:1024px) {
+    /* CalenderView.css */
+
+.appointment-calendar-container {
+  background-color: #f5f7fe;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  max-width: 335px;
+  margin: 0px auto;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.calendar-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1d1e2c;
+}
+
+.calendar-nav-buttons .nav-button {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #3b3f5c;
+  margin: 0 0.25rem;
+}
+
+.calendar-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+.calendar-day {
+  background-color: transparent;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  width: 80px;
+}
+
+.selected-day {
+  background-color: rgba(86, 88, 245, 0.1);
+}
+
+.day-name {
+  font-size: 0.7rem;
+  color: #8e8e93;
+  margin-bottom: 0.25rem;
+}
+
+.day-date {
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.time-slot {
+  margin: 0.2rem 0;
+  padding: 0.1rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.selected-time {
+  background-color: #372aac;
+  color: white;
+  font-weight: bold;
+}
+
+.default-time {
+  background-color: #e0e3fa;
+  color: #5658f5;
+}
+
+.appointment-cards {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.appointment-card {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 125px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-time {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.card-doctor {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Specific background color classes for cards */
+.bg-purple {
+  background-color: #5658f5;
+  color: white;
+}
+
+.bg-light {
+  background-color: #e9ebfd;
+  color: #1d1e2c;
+}
+
+
+    
+}
+
+
+/* Mobile Screen Media Query */
+@media (max-width:768px) {
+    /* CalenderView.css */
+
+.appointment-calendar-container {
+
+  background-color: #f5f7fe;
+  padding: 1rem;
+  /* margin: 1rem; */
+  border-radius: 1rem;
+  max-width: 100%;
+  margin: 10px 0px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.calendar-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1d1e2c;
+}
+
+.calendar-nav-buttons .nav-button {
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #3b3f5c;
+  margin: 0 0.25rem;
+}
+
+.calendar-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.calendar-day {
+  background-color: transparent;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  width: 50px;
+}
+
+.selected-day {
+  background-color: rgba(86, 88, 245, 0.1);
+}
+
+.day-name {
+  font-size: 0.65rem;
+  color: #8e8e93;
+  margin-bottom: 0.25rem;
+}
+
+.day-date {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.time-slot {
+  margin: 0.2rem 0;
+  padding: 0.25rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+}
+
+.selected-time {
+  background-color: #372aac;
+  color: white;
+  font-weight: bold;
+}
+
+.default-time {
+  background-color: #e0e3fa;
+  color: #5658f5;
+}
+
+.appointment-cards {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.appointment-card {
+  border-radius: 1rem;
+  padding: 1rem;
+  width:100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-time {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.card-doctor {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Specific background color classes for cards */
+.bg-purple {
+  background-color: #5658f5;
+  color: white;
+}
+
+.bg-light {
+  background-color: #e9ebfd;
+  color: #1d1e2c;
+}
+
+
+    
+}
