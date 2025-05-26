@@ -1,0 +1,86 @@
+.upcoming-schedule-container{
+    max-width:550px ;
+    width: 100%;
+    background-color: #f5f7fe;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.upcoming-schedule-container h2{
+    color: #5658f5;
+
+
+}
+
+.upcoming-schedule-container h4{
+    color: #00000067;
+    margin: 10px 0;
+}
+
+.work{
+    display: flex;
+    gap: 1rem;
+}
+
+@media  (max-width:1024px) {
+    .upcoming-schedule-container{
+    max-width:400px ;
+    width: 100%;
+    background-color: #f5f7fe;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.upcoming-schedule-container h2{
+    color: #5658f5;
+    font-size: 1.1rem;
+
+
+}
+
+.upcoming-schedule-container h4{
+    color: #00000067;
+    margin: 5px 0;
+    font-size: 0.7rem;
+}
+
+.work{
+    display: flex;
+    gap: 1rem;
+}
+
+    
+}
+
+
+
+@media  (max-width:768px) {
+    .upcoming-schedule-container{
+    max-width:550px ;
+    width: 100%;
+    background-color: #f5f7fe;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.upcoming-schedule-container h2{
+    color: #5658f5;
+
+
+}
+
+.upcoming-schedule-container h4{
+    color: #00000067;
+    margin: 10px 0;
+}
+
+.work{
+    display: flex;
+    gap: 1rem;
+}
+
+    
+}

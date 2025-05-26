@@ -4,8 +4,9 @@
   background-color: #f5f7fe;
   padding: 1.5rem;
   border-radius: 1rem;
-  max-width: 530px;
-  margin: auto;
+  max-width: 550px;
+  height: 350px;
+  margin: 0px;
 }
 
 .calendar-header {
@@ -133,7 +134,8 @@
   padding: 0.7rem;
   border-radius: 1rem;
   max-width: 335px;
-  margin: 0px auto;
+  margin: 0px;
+  height: 300px;
 }
 
 .calendar-header {
@@ -266,8 +268,17 @@
   padding: 1rem;
   /* margin: 1rem; */
   border-radius: 1rem;
-  max-width: 100%;
-  margin: 10px 0px;
+  max-width: 90vw;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  
+  
 }
 
 .calendar-header {

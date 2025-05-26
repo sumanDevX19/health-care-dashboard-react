@@ -1,0 +1,59 @@
+.dashboard-main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dashboard-main-components{
+    width: 80vw;
+    display: flex;
+    gap: 1rem;
+}
+
+.dashboard-second-components{
+    width: 80vw;
+    display: flex;
+    gap:1rem;
+    padding: 20px;
+}
+
+@media (max-width:1024px) {
+    .dashboard-main-components{
+        display: flex;
+        gap: 1rem;
+    }
+    .dashboard-second-components{
+        display: flex;
+        gap:1rem;
+        padding: 20px;
+    }
+
+
+    
+}
+
+
+@media (max-width:768px) {
+.dashboard-main-components{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dashboard-second-components{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    padding: 1rem;
+
+}
+
+
+    
+    
+}
+
+
+

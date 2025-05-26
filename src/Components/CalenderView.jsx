@@ -3,7 +3,7 @@ import { Card, CardContent } from "../Components/CardComponents";
 import { appointments, days } from "../data/AppointmentMockData";
 import "../CalenderView.css"; // assuming the CSS is stored here
 
-export default function AppointmentCalendar({ selectedDate = 26, selectedTime = "09:00" }) {
+export default function CalendarView({ selectedDate = 26, selectedTime = "09:00" }) {
   return (
     <div className="appointment-calendar-container">
       <div className="calendar-header">
