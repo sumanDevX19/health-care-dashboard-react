@@ -58,7 +58,7 @@
 
 @media  (max-width:768px) {
     .upcoming-schedule-container{
-    max-width:550px ;
+    max-width:90vw ;
     width: 100%;
     background-color: #f5f7fe;
     padding: 1.5rem;
